@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Auto-register codedb in additional detected MCP clients: oh-my-pi, Hermes, Qwen Code, ZCode, Trae, Cline, Copilot CLI, Antigravity, Kiro, and OpenCode. `codedb nuke` removes the matching entries. Invalid JSON is left untouched.
+
 ## 0.2.5855 - 2026-09-11
 
 - Reduce watcher work under filesystem churn with bounded event coalescing and separate two-second overflow verification; preserve hashing for same-metadata rewrites.
